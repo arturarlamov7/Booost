@@ -80,6 +80,7 @@ $title = (!empty($routes[$page]['title'])) ? "New Era of Busting — " . $routes
             </div>
         </div>
     </div>
+    
 
     <!-- <div class="nera-support">
         <img src="/template/img/support-icon.png" alt="">
