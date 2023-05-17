@@ -1,0 +1,37 @@
+<filesMatch ".(css|jpg|jpeg|png|gif|js|ico)$">
+Header set Cache-Control "max-age=2628000, public"
+</filesMatch>
+
+RewriteEngine On
+RewriteCond %{HTTPS} !=on
+RewriteRule ^/?(.*) https://%{SERVER_NAME}/$1 [R,L]
+RewriteRule ^sitemap\.xml$ sitemap.php [L]
+
+# RewriteEngine on
+RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+# RewriteRule ^lol-boosting/(.*)/(.*)/?$ booster-dashboard/index.php?page=bets&page=$1&id=$2 [QSA,L]
+RewriteRule ^lol-boosting/(.*)/?$ index.php?page=lol-boosting&boost=$1 [QSA,L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+# RewriteRule ^booster-dashboard/(.*)/(.*)/?$ booster-dashboard/index.php?page=bets&page=$1&id=$2 [QSA,L]
+RewriteRule ^booster-dashboard/(.*)/?$ booster-dashboard/index.php?page=$1 [QSA,L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)/?$ index.php?page=$1 [QSA,L]
+
+Options All -Indexes
+
+
+
+
+# DO NOT REMOVE THIS LINE AND THE LINES BELOW PWPROTECTID:cRWkIjfcCY
+AuthType Basic
+AuthName "Restricted Access"
+AuthUserFile /home/u287128997/domains/neraboost.com/public_html/.htpasswd
+Require valid-user
+# DO NOT REMOVE THIS LINE AND THE LINES ABOVE cRWkIjfcCY:PWPROTECTID
+
