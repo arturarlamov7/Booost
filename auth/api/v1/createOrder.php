@@ -38,6 +38,7 @@ if (count($_POST) != 0) {
     $pass  = md5($_POST['password']);
     // $save  = $_POST['save'];
     $save  = true;
+    
 
     $pattern = "/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,})$/i";
     if (!preg_match($pattern, $login)) {
