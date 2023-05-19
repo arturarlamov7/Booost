@@ -137,6 +137,7 @@ if (!$auth) {
                         </div>
                         <div class="circle">
                             <img src="/template/img/profile-user.svg">
+                            
                         </div>
                     </a>
                 </div>
