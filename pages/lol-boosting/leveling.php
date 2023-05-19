@@ -8,6 +8,7 @@
     <title>New Era of Busting</title>
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    
     <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.css">
     <link rel="stylesheet" href="css/main.css">
