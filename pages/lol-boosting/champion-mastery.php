@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.css">
     <link rel="stylesheet" href="css/main.css">
+    
 </head>
 
 <body>
