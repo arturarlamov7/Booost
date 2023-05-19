@@ -3,8 +3,6 @@
 
 $typeBoost = isset($_GET['boost']) ? $_GET['boost'] : 'rank-boosting';
 
-
-
 $lolBoosting = array('rank-boosting', 'ranked-wins', 'duo-queue', 'promo', 'placements', 'normals', 'leveling', 'champion-mastery');
 
 // echo array_search($typeBoost . '12', $lolBoosting);
