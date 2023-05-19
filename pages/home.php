@@ -125,6 +125,7 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="col">
                         <div class="pick-item">
                             <img src="template/img/main-icon-valorant.svg" alt="">
