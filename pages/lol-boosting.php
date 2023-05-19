@@ -145,3 +145,5 @@ if (array_search($typeBoost, $lolBoosting) == '') {
 
     </div>
 </div>
+
+
