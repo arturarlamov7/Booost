@@ -13,7 +13,7 @@
  * - type-hinted placeholders
  * 
  *  Type-hinted placeholders are great because 
- * - safe, as any other [properly implemented] placeholders
+ * - safe, as any other [properly implemented] placeholders 
  * - no need for manual escaping or binding, makes the code extra DRY
  * - allows support for non-standard types such as identifier or array, which saves A LOT of pain in the back.
  * 
