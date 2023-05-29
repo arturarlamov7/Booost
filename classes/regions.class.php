@@ -11,3 +11,4 @@ $regions = [
 	'br' => 'Brazil',
 	'jp' => 'Japan',
 ];
+
