@@ -6,6 +6,7 @@
 
 <!-- <pre><?= json_encode($orderInfo, JSON_PRETTY_PRINT) ?></pre> -->
 
+
 <div class="container">
     <div>
         <a href="?page=orders" class="btn btn-primary">Go to orders</a>
