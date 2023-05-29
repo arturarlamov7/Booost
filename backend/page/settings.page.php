@@ -341,6 +341,7 @@
                                                 alert('null');
                                             }
                                             // $('.new-booster-alerts').slideDown();
+                                        
                                             // this_button.html(this_button_html);
                                         }
                                     );
